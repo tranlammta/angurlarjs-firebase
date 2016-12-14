@@ -1,0 +1,74 @@
+<h1>Add New Product</h1>
+
+<form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label for="name" class="col-sm-2 control-label">Name:</label>
+    <div class="col-sm-4">
+      <input class="form-control" id="name"
+             ng-model="travle.name" placeholder="Name"/>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="loacation" class="col-sm-2 control-label">Loacation:</label>
+    <div class="col-sm-4">
+      <input class="form-control" id="loacation"
+             ng-model="travle.loacation" placeholder="Loacation"/>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="linkimage_1" class="col-sm-2 control-label">Linkimage_1:</label>
+    <div class="col-sm-4">
+      <input class="form-control" id="linkimage_1"
+             ng-model="travle.linkimage_1" placeholder="linkimage_1"/>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="linkimage_2" class="col-sm-2 control-label">Linkimage_2:</label>
+    <div class="col-sm-4">
+      <input class="form-control" id="linkimage_2"
+             ng-model="travle.linkimage_2" placeholder="linkimage_2"/>
+    </div>
+  </div>
+   <div class="form-group">
+    <label for="coordinate_1" class="col-sm-2 control-label">Coordinate_1:</label>
+    <div class="col-sm-4">
+      <input class="form-control" id="coordinate_1"
+             ng-model="travle.coordinate_1" placeholder="coordinate_1"/>
+    </div>
+  </div>
+   <div class="form-group">
+    <label for="coordinate_2" class="col-sm-2 control-label">Coordinate_2:</label>
+    <div class="col-sm-4">
+      <input class="form-control" id="coordinate_2"
+             ng-model="travle.coordinate_2" placeholder="coordinate_2"/>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="like" class="col-sm-2 control-label">Like:
+    </label>
+    <div class="col-sm-4">
+      <input class="form-control" id="like"
+             ng-model="travle.like" placeholder="like"/>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="description" class="col-sm-2 control-label">Like:
+    </label>
+    <div class="col-sm-4">
+      <textarea class="form-control" id="description"
+             ng-model="travle.description" placeholder="description">
+      </textarea>
+    </div>
+  </div>
+
+
+  <div class="form-group">
+
+    <div class="col-sm-offset-2 col-sm-10">
+      <a ng-click="addProduct()" class="btn btn-small btn-primary">Add</a>
+    </div>
+  </div>
+</form>
+</div>
