@@ -3,7 +3,7 @@
   <thead>
     <tr>
       <th>Name</th>
-      <th style="width: 100px">Description</th>
+     <th>Description</th> 
       <th>Loacation</th>
       <th>Linkimage_1</th>
       <th>Linkimage_2</th>
@@ -15,20 +15,20 @@
   </thead>
   <tbody>
     <tr ng-repeat="travle in travles">
-      <td >{{travle.name}}</td>
-      <!-- <td style="width: 100px">{{travle.description}}</td> -->
+      <td>{{travle.name}}</td>
+      <td>{{travle.description}}</td>
       <td>{{travle.loacation}}</td>
       <td>{{travle.linkimage_1}}</td>
       <td>{{travle.linkimage_2}}</td>
       <td>{{travle.coordinate_1}}</td>
       <td>{{travle.coordinate_2}}</td>
       <td>{{travle.like}}</td>
-	  <td><a href="#/edit/{{travle.$id}}" class="btn btn-small btn-primary">Edit</a> <a class="btn btn-small btn-danger" ng-click="removetravle(travle.$id)">Delete</a></td>
-	  
+	   <td><a href="#/edit/{{travle.$id}}" class="btn btn-small btn-primary">Edit</a> <a class="btn btn-small btn-danger" ng-click="removeProduct(travle.$id)">Delete</a></td>
+    
     </tr>
   </tbody>
 </table>
 <p>
-    <a href="#/add" class="btn btn-success" role="button">Add New travle</a>
+    <a href="#/add" class="btn btn-success" role="button" >Add New Product</a>
 </p>
 

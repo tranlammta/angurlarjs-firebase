@@ -21,5 +21,5 @@ app.config(function($routeProvider){
 });
 
 app.constant("FBURL", 
-  "https://apptravel-e97e3.firebaseio.com/travles" //Use the URL of your project here
+  "https://apptravel-e97e3.firebaseio.com/travles/" //Use the URL of your project here
 );
